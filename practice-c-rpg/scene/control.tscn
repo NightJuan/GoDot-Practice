@@ -1,13 +1,14 @@
 [gd_scene format=3 uid="uid://bbijbamhdea1q"]
 
 [ext_resource type="Script" uid="uid://c81dnnhoql8j4" path="res://src/main.gd" id="1_mnow5"]
+[ext_resource type="FontFile" uid="uid://xebn25mrrova" path="res://font/Apple Chancery.ttf" id="2_8g54p"]
 [ext_resource type="FontFile" uid="uid://b4lru6hqp4tfj" path="res://font/Daydream DEMO.otf" id="2_f676y"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8g54p"]
 bg_color = Color(0, 0, 0, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_mnow5"]
-base_font = ExtResource("2_f676y")
+base_font = ExtResource("2_8g54p")
 
 [sub_resource type="FontVariation" id="FontVariation_j0f1v"]
 base_font = ExtResource("2_f676y")
@@ -35,7 +36,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_8g54p")
-metadata/_edit_use_anchors_ = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=623842893]
 layout_mode = 1
@@ -55,6 +55,7 @@ grow_vertical = 2
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_fonts/normal_font = SubResource("FontVariation_mnow5")
+theme_override_font_sizes/normal_font_size = 32
 bbcode_enabled = true
 text = "HOWDY PARTNER,
 	How is it Going PARTNER"
